@@ -32,13 +32,13 @@ Por tiempo, aunque sé que tengo hasta el miércoles, he decidio ir por el nivel
 
 Base de datos
 
-• Creación de las tres bases
+• Creación de las tres bases: Productos tiene 9 productos cargados.
 
 Carpeta Public_HTML
 
 • Crear un home
 
-Actividades solo forntend
+Actividades solo frontend
 
 • Propuesta maqueta de HTML
 
