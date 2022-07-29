@@ -1,293 +1,377 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejo Compu Shop - Laptops, PC Gamers, Accesorios y más</title>
-    <link rel="stylesheet" href="css/style.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejo Compu Shop - Laptops, PC Gamers, Accesorios y más</title>
+        <link rel="stylesheet" href="css/estilo.min.css">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
+    </head>
+    <body>
+        <!--Sección del header-->
+        <header>
+            <section class="ejo-section">
+                <div class="wrap">
+                    <div class="container">
+                        <div class="row justify-content-between">
+                            <div class="col">
+                                <p class="mb-0 phone">
+                                    <span class="fa fa-phone"></span>
+                                    <a href="#">+55 25 525245</a>
+                                </p>
+                            </div>
+                            <div class="col d-flex justify-content-end">
+                                <div class="social-media">
+                                    <p class="mb-0 d-flex">
+                                        <a href="#" class="d-flex align-items-center justify-content-center">
+                                            <span class="fa-brands fa-facebook">
+                                                <i class="sr-only">Facebook</i></span></a>
+                                        
+                                        <a href="#" class="d-flex align-items-center justify-content-center">
+                                            <span class="fa-brands fa-instagram">
+                                                <i class="sr-only">Instagram</i></span></a>
 
-</head>
-<body>
-    <div class="topads">
-        <p> Envíos a toda la republica sin COSTO en compras mayores a $600 pesos</p>
-                
-    </div>
-    <header>
-       <div class="contenedorheader">
-            <div class="contenedor-header">
-                <div class="logo">
-                    <img class="logo" src="assets/img/logo.png">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-                <nav class="menu">
-                    <ul>
-                        <li><a href="#" class="btnefect">Categorías |</a>
-                            <ul class="submenu">
-                        
-                                <li > Laptops Gamer</li>
-                                <li > Gabinetes RGB</li>
+                <!--Menú-->
+                <nav
+                    class="navbar navbar-expand-lg navbar-dark ejo_navbar bg-dark ejo-navbar-light"
+                    id="ejo-navbar">
+                    <div class="container">
+                        <a class="navbar-logo" href="#"><img src="assets/img/logolight.png" width="100%" height="60" alt=""></a>
+                        <form action="#" class="searchform order-sm-start order-lg-last">
+                            <div class="form-group d-flex">
+                                <input type="text" class="form-control pl-3" placeholder="Seguro lo tenemos">
+                                <button type="submit" placeholder="" class="form-control search">
+                                    <span class="fa fa-search"></span></button>
+                            </div>
+                        </form>
+                        <button
+                            class="navbar-toggler"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#ejo-nav"
+                            aria-controls="ejo-nav"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="fa fa-bars"></span>
+                            Menu
+                        </button>
+                        <div class="collapse navbar-collapse" id="ejo-nav">
+                            <ul class="navbar-nav m-auto">
+                                <li class="nav-item active">
+                                    <a href="#" class="nav-link">Inicio</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a
+                                        class="nav-link dropdown-toggle"
+                                        href="#"
+                                        id="dropdown04"
+                                        data-toggle="dropdown"
+                                        aria-haspopup="true"
+                                        aria-expanded="false">Categorías</a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdown04">
+                                        <a class="dropdown-item" href="#tabla2">Los más vendidos</a>
+                                        <a class="dropdown-item" href="#tabla1">Productos destacados</a>
+                                        <a class="dropdown-item" href="#">Motherboards</a>
+                                        <a class="dropdown-item" href="#">Tarjetas de vídeo</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Tienda</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Soporte</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Pagos y Envíos</a>
+                                </li>
                             </ul>
-                        </li>
-                        <li><a href="#" class="btnefect">Tienda |</a></li>
-                        <li><a href="#" class="btnefect">Soporte |</a></li>
-                        <li><a href="#" class="btnefect">Pagos y envíos |</a></li>
-                        
-                    </ul>                      
+                        </div>
+                    </div>
                 </nav>
-                
-                <div class="usuario">
+            </header>
+            <!--Termina Header -->
 
-                    <p>
-                        <a href="" class="buscar">🔍</a>         |   👤    | <a href="#">🛒</a> 
-                    </p>
+            <!--Carrusel-->
 
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="assets/img/inicio.webp" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="assets/img/banner-2.webp" alt="Second slide">
+                  </div>
+                                 </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            <!--Promociones-->
+
+            <div class="promos">
+                <div class="contenedorpromos">
+                    <div class="promo1 .col-md-4">
+                        <img src="assets/img/1.webp" alt="">
+                    </div>
+                    <div class="promo2 .col-md-4">
+                        <img src="assets/img/2.webp" alt="">
+                    </div>
+
+                    <div class="promo3 .col-md-4">
+                        <img src="assets/img/3.webp" alt="">
+                    </div>
                 </div>
-
-            </div>    
-
-       </div>       
-    </header>
-    <div class="Banner">
-        <img srcset="assets/img/banner-320w.jpg 320w,
-             assets/img/banner-480w.jpg 480w,
-             assets/img/banner-800w.jpg 800w, 
-             assets/img/inicio.webp 2590w"
-     sizes="(max-width: 320px) 280px,
-            (max-width: 400px) 440px"
-            
-     src="assets/img/inicio.webp" alt="Tu tienda de tecnología">
-    </div>
-
-    <div class="promos">
-        <div class="contenedorpromos">
-            <div class="promo1">
-                <img src="assets/img/1.webp" alt="">
             </div>
-            <div class="promo2">
-                <img src="assets/img/2.webp" alt="">
-            </div>
-            
-            <div class="promo3">
-                <img src="assets/img/3.webp" alt="">
+
+            <!--Fin Promociones-->
+
+            <!--Tabs Productos-->
+           <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul class="nav nav-tabs">
+                        <li class="active"> <a href="#tabla1" data-toggle="tab">Productos Recientes</a> </li>
+                        <li class=""><a href="#tabla2" data-toggle="tab">Productos más vendidos</a> </li>      
+                    </ul>
+
+<div class="tab-content">
+
+    <!--Productos destacados-->
+                  <div class="tab-pane active" id="tabla1">
+
+                    <div class="destacados">
+                    <div class="card" style="width: 15rem;">
+                        <img class="card-img-top" src="assets/img/productos/06G-P4-2062-KR.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">EVGA GeForce RTX 20-Series </h5>
+                          <p class="card-text">Tarjeta de Video Nvidia GeForce RTX 2060 / 6GB GDDR6 / EVGA SC ​/ 06G-P4-2062-KR / 3 AÑOS DE GARANTIA</p>
+                          <a href="producto.html" class="btn btn-primary">Ver más</a>
+                        </div>
+                      </div>
+
+                      <div class="card" style="width: 15rem;">
+                        <img class="card-img-top" src="assets/img/productos/AX4U32008G16A ST60.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Memoria Ram XPG Spectrix D60G</h5>
+                          <p class="card-text">Memoria Ram XPG Spectrix D60G DDR4, 3200MHz, 8GB, Non-ECC, CL16, XMP SKU: AX4U32008G16A-ST60</p>
+                          <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                      </div>
+
+                      <div class="card" style="width: 15rem;">
+                        <img class="card-img-top" src="assets/img/productos/CH-910D018-NA.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Teclado Gamer Corsair K60 RGB </h5>
+                          <p class="card-text">Teclado Corsair K60 RGB PRO Low Alambrico Mecanico Cherry MX Negro Ingles</p>
+                          <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                      </div>
+
+                      <div class="card" style="width: 15rem;">
+                        <img class="card-img-top" src="assets/img/productos/CMI-GM34-CW2-US.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Monitor Cooler Master Curvo Gamer</h5>
+                          <p class="card-text">Monitor Cooler Master Curvo Gamer 3 AÑOS DE GARANTIA</p>
+                          <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                      </div>
+
+                      <div class="card" style="width: 15rem;">
+                        <img class="card-img-top" src="assets/img/productos/EXPLORER JUSTIC.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">EXPLORER JUSTIC </h5>
+                          <p class="card-text">Gabinete IN WIN EXPLORER JUSTICE Armable Mini Torre M-ATX/M-ITX Sin Fuente 3 Ventiladores ARGB', 'Con ventana: Si</p>
+                          <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                      </div>
+
+                      <div class="card" style="width: 15rem;">
+                        <img class="card-img-top" src="assets/img/productos/GM-AORUS M5.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Mouse Gamer Aorus M5 Alambrico </h5>
+                          <p class="card-text">Alambrico USB 16000 DPI Optico Omron Switch RGB Fusion 2.0 Negro</p>
+                          <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                      </div>
+
+                      <div class="card" style="width: 15rem;">
+                        <img class="card-img-top" src="assets/img/productos/GP-ARS16G44.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Gigabyte AORUS GP-ARS16G44 Memoria RGB DDR4</h5>
+                          <p class="card-text">KIT Memoria RAM Aorus DIMM 16GB DDR4 4400MHZ 2X8 GB CL43 1.2V Negro RGB</p>
+                          <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                      </div>
+
+                      <div class="card" style="width: 15rem;">
+                        <img class="card-img-top" src="assets/img/productos/ROG MAXIMUS Z690 EXTREME GLACIAL.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">ROG MAXIMUS Z690 EXTREME GLACIAL</h5>
+                          <p class="card-text">Tarjeta Madre Asus ROG MAXIMUS Z690 Extreme Glacial 1700 ATX 4DDR4 MAX128 GB HDMI 5 M.2 2 PCIe 5.0'</p>
+                          <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                      </div>
+
+                      <div class="card" style="width: 15rem;">
+                        <img class="card-img-top" src="assets/img/productos/MFW-B2DN-18NPA-S3.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Masterfan MF120 S3 ARGB</h5>
+                          <p class="card-text">Ventilador Cooler Master Masterfan MF120 S3 ARGB 120X120X25MM DC V12 27 dBA 1800 RPM</p>
+                          <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                      </div>
+
+                      <div class="card" style="width: 15rem;">
+                        <img class="card-img-top" src="assets/img/productos/PRIME Z590-A.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">PRIME Z590-A</h5>
+                          <p class="card-text">Tarjeta Madre Asus PRIME Z590-A ATX 4DDR4 MAX128 GB HDMI 5 M.2 2 PCIe 5.0'</p>
+                          <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                      </div>
+
+                  </div>
+                </div>
+                <!--Fin De los productos destacados-->
+
+                <!--Productos más vendidos-->
+                  <div class="tab-pane" id="tabla2">
+                    <div class="destacados">
+                    <div class="card" style="width: 15rem;">
+                        <img class="card-img-top" src="assets/img/productos/AX4U32008G16A ST60.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">EVGA GeForce RTX 20-Series </h5>
+                          <p class="card-text">Tarjeta de Video Nvidia GeForce RTX 2060 / 6GB GDDR6 / EVGA SC ​/ 06G-P4-2062-KR / 3 AÑOS DE GARANTIA</p>
+                          <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                      </div>
+
+                      <div class="card" style="width: 15rem;">
+                        <img class="card-img-top" src="assets/img/productos/06G-P4-2062-KR.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">EVGA GeForce RTX 20-Series </h5>
+                          <p class="card-text">Tarjeta de Video Nvidia GeForce RTX 2060 / 6GB GDDR6 / EVGA SC ​/ 06G-P4-2062-KR / 3 AÑOS DE GARANTIA</p>
+                          <a href="producto.html" class="btn btn-primary">Ver más</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                  </div>
+                </div>
             </div>
         </div>
-    </div>
-    
-    
-    <div class="productosdestacados">
-        
-            <div class="contenedorproductosdestacados">
-                <div class="nombreseccion">
-                    <h2>Productos Destacados</h2>
-                </div>
-                <div class="listaproductos">
-                    <div class="cajaproducto">
-                        <a href="">
-                            <div class="producto">
-                                <img src="assets/img/productos/06G-P4-2062-KR.webp" alt="">
-                                <div class="producto-nombre">Teclado Gamer</div>
-                                <div class="producto-descripcion">Un teclado para gobernarlo todo</div>
-                                <div class="producto-precio">$470 pesos</div>
+           
+
+            <!--Fin Tab Productos-->
+
+
+
+                  </div>
+
+                  
+
+                  
+                  
+            <!--Sección del Footer-->
+            <footer class="footer-web">
+
+                <div class="container-fluid">
+                    <div class="row">
+
+                        <div class="col-xs-12 col-sm-6 col-md-6">
+                            <h3>Somos</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat accusamus,
+                                harum facilis nemo dolores rem temporibus delectus at nostrum deleniti a labore
+                                inventore ea? Repellat pariatur corporis quas veritatis accusamus.
+                            </p>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-3 ">
+                            <h3>Redes Sociales</h3>
+                            <p><i class="fa-brands fa-facebook"></i>  Síguenos en Facebook</p>
+                            <p><i class="fa-brands fa-instagram"></i>  Síguenos en Instagram</p>
+                            <p><i class="fa-brands fa-whatsapp"></i>  ¿Dudas? Mandanos un Whatsapp</p>
+                                
+                                
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-6 col-md-3">
+                                        <h3>¡Te esperamos!</h3>
+                                        <div class="">
+                                            <img src="">
+                                            <label>Av. Chapultpec S/N Col. Sevilla Cp 03345, CDMX</label>
+                                        </label>
+                                    </div>
+
+                                </div>
 
                             </div>
-                        </a>
-                    </div>
-                    
-                    <div class="cajaproducto">
-                        <a href="">
-                            <div class="producto">
-                                <img src="assets/img/productos/CH-910D018-NA.webp" alt="">
-                                <div class="producto-nombre">Teclado Gamer</div>
-                                <div class="producto-descripcion">Un teclado para gobernarlo todo</div>
-                                <div class="producto-precio">$470 pesos</div>
+                          
+                        </footer>
 
+                        <div class="row">
+                            <div class="contenedorcopyw">
+                                <p>
+                                    @ 2022 Todos los derechos reservados
+                                </p>
                             </div>
-                        </a>
-                    </div>
+                        </div>
 
-                    <div class="cajaproducto">
-                        <a href="">
-                            <div class="producto">
-                                <img src="assets/img/productos/CMI-GM34-CW2-US.webp" alt="">
-                                <div class="producto-nombre">Teclado Gamer</div>
-                                <div class="producto-descripcion">Un teclado para gobernarlo todo</div>
-                                <div class="producto-precio">$470 pesos</div>
+                        <script type="text/javascript">
+                            $(document).ready(function () {
+                                $.ajax({
+                                    url: '../php/productos.php',
+                                    type: 'POST',
+                                    data: {},
+                                    success: function (data) {
+                                        console.log(data);
+                                        let html = '';
+                                        for (var i = 0; i < data.datos.length; i++) {
+                                            html += '<div class="cajaproducto"><a href="producto.php?p=' + data
+                                                .datos[i]
+                                                .sku + '"><div class="producto"><img src="assets/img/productos/' + data
+                                                .datos[i]
+                                                .imagen + '"><div class="detail-nombre">' + data
+                                                .datos[i]
+                                                .corta + '</div><div class="detail-descripcion">' + data
+                                                .datos[i]
+                                                .descripcion + '</div><div class="detail-precio">' + data
+                                                .datos[i]
+                                                .precio + '</div></div></a></div>';
+                                        }
+                                        document
+                                            .getElementById("space-list")
+                                            .innerHTML = html;
+                                    },
+                                    error: function (err) {
+                                        console.error(err);
+                                    }
+                                });
+                            });
+                        </script>
 
-                            </div>
-                        </a>
-                    </div>
+                        <script src="js/jquery.min.js"></script>
+                        <script src="js/popper.js"></script>
+                        <script src="js/bootstrap.min.js"></script>
+                        <script src="js/main.js"></script>
+                        
+                       
 
-                    <div class="cajaproducto">
-                        <a href="">
-                            <div class="producto">
-                                <img src="assets/img/productos/EXPLORER JUSTIC.webp" alt="">
-                                <div class="producto-nombre">Teclado Gamer</div>
-                                <div class="producto-descripcion">Un teclado para gobernarlo todo</div>
-                                <div class="producto-precio">$470 pesos</div>
-
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="cajaproducto">
-                        <a href="">
-                            <div class="producto">
-                                <img src="assets/img/productos/GM-AORUS M5.webp" alt="">
-                                <div class="producto-nombre">Teclado Gamer</div>
-                                <div class="producto-descripcion">Un teclado para gobernarlo todo</div>
-                                <div class="producto-precio">$470 pesos</div>
-
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="cajaproducto">
-                        <a href="">
-                            <div class="producto">
-                                <img src="assets/img/productos/GP-ARS16G44.webp" alt="">
-                                <div class="producto-nombre">Teclado Gamer</div>
-                                <div class="producto-descripcion">Un teclado para gobernarlo todo</div>
-                                <div class="producto-precio">$470 pesos</div>
-
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="cajaproducto">
-                        <a href="">
-                            <div class="producto">
-                                <img src="assets/img/productos/MFW-B2DN-18NPA-S3.webp" alt="">
-                                <div class="producto-nombre">Teclado Gamer</div>
-                                <div class="producto-descripcion">Un teclado para gobernarlo todo</div>
-                                <div class="producto-precio">$470 pesos</div>
-
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="cajaproducto">
-                        <a href="">
-                            <div class="producto">
-                                <img src="assets/img/productos/PRIME Z590-A.webp" alt="">
-                                <div class="producto-nombre">Teclado Gamer</div>
-                                <div class="producto-descripcion">Un teclado para gobernarlo todo</div>
-                                <div class="producto-precio">$470 pesos</div>
-
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="cajaproducto">
-                        <a href="">
-                            <div class="producto">
-                                <img src="assets/img/productos/TUF GAMING H1.webp" alt="">
-                                <div class="producto-nombre">Teclado Gamer</div>
-                                <div class="producto-descripcion">Un teclado para gobernarlo todo</div>
-                                <div class="producto-precio">$470 pesos</div>
-
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="cajaproducto">
-                        <a href="">
-                            <div class="producto">
-                                <img src="assets/img/productos/AX4U32008G16A ST60.webp" alt="">
-                                <div class="producto-nombre">Teclado Gamer</div>
-                                <div class="producto-descripcion">Un teclado para gobernarlo todo</div>
-                                <div class="producto-precio">$470 pesos</div>
-
-                            </div>
-                        </a>
-                    </div>
-
-                    
-
-
-                </div>
-
-            </div>
-    </div>
-
-    
-    <footer>
-      <div class="contenedorprincipalfooter"> 
-        <div class="contenedor-footer">
-            <div class="col1">
-                <h3>Somos</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Quaerat accusamus, harum facilis nemo dolores rem temporibus 
-                    delectus at nostrum deleniti a labore inventore ea? Repellat 
-                    pariatur corporis quas veritatis accusamus.
-                </p>
-            </div>
-
-            <div class="col2">
-                <h3>Redes Sociales</h3>
-                <div class="row">
-                    <img src="assets/img/fb.png"> <label>Síguenos en Facebook</label>
-                </div>
-                <div class="row">
-                    <img src="assets/img/ig.png"> <label>Síguenos en Instagram</label>
-                </div>
-                <div class="row">
-                    <img src="assets/img/wa.png"> <label>¿Dudas? Mandanos un Whatsapp</label>
-                </div>
-                
-            </div>
-
-            <div class="col3">
-                <h3>¡Te esperamos!</h3>
-                    <div class="row2">
-                        <img src=""> 
-                        <label>Av. Chapultpec S/N Col. Sevilla Cp 03345, CDMX</label>               </label>
-                    </div>
-
-            </div>
-
-        </div>
-        <div class="contenedorcopyw">
-            <div class="copyw">
-                <p>
-                    @ 2022 Todos los derechos reservados
-                </p>
-            </div>
-        </div>
-      </div>   
-    </footer>
-
-   <script type="text/javascript">
-    $(document).ready(function(){
-			$.ajax({
-				url:'../php/productos.php',
-				type:'POST',
-				data:{},
-				success:function(data){
-					console.log(data);
-					let html='';
-					for (var i = 0; i < data.datos.length; i++) {
-						html+=
-						'<div class="cajaproducto">'+
-							'<a href="producto.php?p='+data.datos[i].sku+'">'+
-								'<div class="producto">'+
-									'<img src="assets/img/productos/'+data.datos[i].imagen+'">'+
-									'<div class="detail-nombre">'+data.datos[i].corta+'</div>'+
-									'<div class="detail-descripcion">'+data.datos[i].descripcion+'</div>'+
-									'<div class="detail-precio">'+data.datos[i].precio+'</div>'+
-								'</div>'+
-							'</a>'+
-						'</div>';
-					}
-					document.getElementById("space-list").innerHTML=html;
-				},
-				error:function(err){
-					console.error(err);
-				}
-			});
-		});
-   </script> 
-</body>
-</html>
+                    </body>
+                </html>
