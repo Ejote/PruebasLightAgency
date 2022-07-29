@@ -48,5 +48,3 @@ Actividades solo frontend
 
 • Visualización de los elementos mencionados
 
-Puede consultar este proyecto en https://portafolio.lab-sdma.link/
-
